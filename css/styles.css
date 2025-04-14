@@ -1,3 +1,14 @@
+:root{
+  --color-darkpurple:#1d0c14;
+  --color-purple:#46377A;
+  --color-lilac: #7B6A9C;
+  --color-hotpink:#CA3685;
+  --color-greyblue:#445599;
+  --color-salmon: #DF849C;
+  /* --color-gradiant:  */
+   
+}
+
 * {
   box-sizing: border-box;
 }
@@ -25,4 +36,14 @@ nav ul {
 body {
   margin: 0;
   font-family: sans-serif;
+  background-color: #1b1a1a;
+  color: white;
+}
+
+.container{
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(4,50px);
+  grid-template-rows: repeat(3,50px);
+  gap: 2px;
 }
